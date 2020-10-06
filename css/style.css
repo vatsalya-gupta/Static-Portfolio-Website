@@ -1,0 +1,120 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+}
+header {
+  background: #111111;
+  padding: 30px;
+  text-align: center;
+}
+header h1 {
+  color: #fff;
+  font-size: 40px;
+}
+nav {
+  padding: 20px;
+}
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+nav ul li {
+  display: inline;
+}
+nav li a {
+  text-decoration: none;
+  margin: 0px 20px;
+  color: #000;
+  font-weight: 500;
+}
+nav li a:hover {
+  color: #888;
+}
+.background_image {
+  padding: 30px;
+  background-position: center;
+  background-size: cover;
+}
+.home {
+  background-image: url("../images/pexels-lukas-574071.jpg");
+}
+.home_content {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  color: #fff;
+  text-align: center;
+}
+.home_content h4 {
+  font-weight: 300;
+  font-size: 38px;
+  margin-bottom: 15px;
+}
+.home_content h2 {
+  font-weight: 300;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.skills {
+  background-image: url(../images/skills_bg1.jpg);
+}
+.skills h3,
+.aboutme h3,
+.contact h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+.skills_img,
+.aboutme_content {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  padding-top: 20px;
+  text-align: center;
+}
+.skills_img img {
+  object-fit: contain;
+  width: 100%;
+  max-width: 700px;
+}
+.aboutme {
+  background-image: url(../images/aboutus.jpg);
+}
+.aboutme_content {
+  color: #fff;
+  padding-bottom: 20px;
+  background: rgba(0, 0, 0, 0.7);
+}
+.aboutme_content p {
+  line-height: 25px;
+  margin: 10px;
+}
+.contact {
+  background-image: url(../images/pexels-george-desipris-872420.jpg);
+}
+.contact_form {
+  padding: 20px;
+  text-align: center;
+}
+.contact_form input {
+  border: 1px solid #dfdfdf;
+  padding: 8px;
+  width: 50%;
+  border-radius: 3px;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.contact_form button {
+  padding: 8px 15px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+  background: #111;
+  color: #fff;
+  padding: 20px;
+}
